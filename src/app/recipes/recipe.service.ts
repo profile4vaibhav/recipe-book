@@ -19,7 +19,7 @@ export class RecipeService {
         ),
         new Recipe(
             'Another Test Recipe',
-            'Test Recipe Description',
+            'Another Test Recipe Description',
             'https://static.toiimg.com/thumb/83565509.cms?width=1200&height=900',
             [
                 new Ingredient('Buns', 1),
