@@ -14,6 +14,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 
 import { DropdownDirective } from './shared/directives/dropdown.directive';
+import { BlockCopyPasteDirective } from './shared/directives/block-copy-paste.directive';
 
 import { ShoppingListService } from './shopping-list/shopping-list.service';
 import { RecipeStartComponent } from './recipes/recipe-start/recipe-start.component';
@@ -30,6 +31,7 @@ import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component
     ShoppingListComponent,
     ShoppingEditComponent,
     DropdownDirective,
+    BlockCopyPasteDirective,
     RecipeStartComponent,
     RecipeEditComponent
   ],
