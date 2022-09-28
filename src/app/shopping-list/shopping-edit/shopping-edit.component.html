@@ -15,7 +15,8 @@
                 <div class="col-xs-12">
                     <button class="btn btn-success mr-4" type="sumbit" [disabled]="!f.valid">{{ editMode ? 'Update' :
                         'Add' }}</button>
-                    <button class="btn btn-danger mr-4" type="button">Delete</button>
+                    <button class="btn btn-danger mr-4" type="button" *ngIf="editMode"
+                        (click)="onDelete()">Delete</button>
                     <button class="btn btn-primary" type="button" (click)="onClear()">Clear</button>
                 </div>
             </div>
